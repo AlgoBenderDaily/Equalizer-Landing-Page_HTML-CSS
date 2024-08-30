@@ -162,6 +162,7 @@ a:any-link {
 
 .value-duration__duration {
   font: var(--TEXT-PRESET4);
+  font-size: 20px;
 }
 
 .sub-plan__buttons {
