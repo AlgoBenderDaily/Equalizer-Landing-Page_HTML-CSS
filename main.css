@@ -114,6 +114,7 @@ a:any-link {
 /* || MAIN */
 .main {
   padding-top: 55px;
+  color: var(--WHITE);
 }
 
 .main__content {
@@ -377,7 +378,7 @@ a:any-link {
   }
 
   .header {
-    margin: 64px 160px;
+    margin: 64px 360px 64px 160px;
   }
 
   .header__nav img {
