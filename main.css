@@ -251,7 +251,7 @@ a:any-link {
     background-image: url("");
     background-position: 104px 918px;
   }
-  
+
   /* || HEADER */
   .header {
     margin: 64px 44px;
@@ -439,6 +439,23 @@ a:any-link {
 
   .buttons__download {
     width: 400px;
+    position: relative;
+  }
+
+  .buttons__download.iOS::before {
+    content: "";
+    position: absolute;
+    top: 22px;
+    left: 127.96px;
+    width: 18px;
+    height: 20px;
+    background-image: url("./images/icon-apple_hover.svg");
+    background-size: cover;
+    display: none;
+  }
+
+  .buttons__download.iOS:hover::before {
+    display: block;
   }
 
   .iOS {
@@ -447,6 +464,18 @@ a:any-link {
 
   .android {
     padding: 16px 109.15px;
+  }
+
+  .iOS:hover,
+  .iOS:focus-visible {
+    color: var(--SLATE);
+    background-color: var(--CYAN);
+  }
+
+  .android:hover,
+  .android:focus-visible {
+    color: var(--SLATE);
+    background-color: var(--YELLOW);
   }
 
   /* || FOOTER */
