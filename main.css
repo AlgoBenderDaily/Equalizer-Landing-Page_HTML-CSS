@@ -373,8 +373,9 @@ a:any-link {
 @media screen and (min-width: 1024px) {
   /* || HEADER */
   body {
-    background-image: url("");
-    background-position: 104px 918px;
+    background-image: url("./images/bg-main-desktop.png");
+    background-position: center -700px;
+    background-size: 3238px 3558px;
   }
 
   .header {
@@ -512,5 +513,9 @@ a:any-link {
     gap: 32px;
     justify-content: left;
     align-items: left;
+  }
+
+  .footer__social-links path:hover {
+    fill: var(--ORANGE);
   }
 }
